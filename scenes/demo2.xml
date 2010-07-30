@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene width="960" height="640" xmlns="goosefx.scene" xmlns:game="goosefx.game.scene">
+    <Style lineWidth="1.0" strokeStyle="#ff0000" fillStyle="#00ff00">
+        <Hexagon x="140" y="140" edge="40" />
+    </Style>
+</Scene>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene width="960" height="640" xmlns="goosefx.scene">
+    <Style lineWidth="1.0" strokeStyle="#ff0000" fillStyle="#00ff00">
+        <Hexagon x="40" y="40" edge="40" />
+        <Circle x="150" y="40" radius="30" /> 
+        <Ellipse x="280" y="40" radius="60 30" /> 
+        <Circle x="220" y="40" radius="30" transform="scale: 2 1" /> 
+    </Style>
+    <Transform translate="100.0 130.0">
+        <Hexagon style="fillStyle: #ccc" transform="rotate: 12°" edge="40" /> 
+        <Hexagon style="fillStyle: #aaa; globalAlpha: 0.5" edge="40" /> 
+    </Transform>
+    <Style lineWidth="inherit" lineCap="round" lineJoin="miter" miterLimit="5.0" fillStyle="#fba">
+        <Transform translate="300.0 130.0">
+            <Hexagon edge="40" transform="rotate: 30°; scale 1.2" /> 
+            <Hexagon edge="40" transform="rotate: 20°; scale: 1.1" />  
+        </Transform>
+        <Transform translate="300.0 130.0" rotate="10°">
+            <Hexagon edge="40" style="fillStyle: transparent" /> 
+        </Transform>
+        <Style lineWidth="3.0" strokeStyle="#000000" fillStyle="#aa0055">
+            <Transform translate="300.0 300.0" rotate="40°" scale="3.3">
+                <Hexagon edge="40" style="lineCap: round; lineJoin: miter; miterLimit: 100" /> 
+            </Transform>
+        </Style>
+    </Style>
+    <Transform translate="85 230">
+        <Rectangle x="-75" y="-20" width="150" height="40" transform="" style="lineWidth: 4; strokeStyle: #008899; fillStyle: rgb(255, 0, 0)" />
+        <Rectangle x="-75" y="-20" width="150" height="40" transform="translate: 0 30; rotate: 20°" style="lineWidth: 4; strokeStyle: #008899; fillStyle: rgba(255, 0, 0, 0.5)" />
+        <Rectangle x="-75" y="-20" width="150" height="40" transform="translate: 0 60; rotate: 40°" style="globalAlpha: 0.5; lineWidth: 4; strokeStyle: #008899; fillStyle: rgb(255, 0, 0)" />
+    </Transform>
+</Scene>
